@@ -12,12 +12,13 @@
 
     /* hero */
     .hero-text{
+        text-align: justify;
         margin-left: calc(50% - 210px);
     }
 
     /* about */
     .about-box{
-        text-align: center;
+        text-align: justify;
         width: 580px;
         margin-left: calc(50% - 290px);
         padding-bottom: 30px;
@@ -25,6 +26,7 @@
 
     /* news and events */
     .box{
+        text-align: justify;
         padding: 30px;
     }
 
@@ -35,6 +37,10 @@
         margin-left: calc(50% - 300px);
     }
         .selinexor-box > h1{
+            margin: 60px 0 0;
+        }
+        .selinexor-box > p{
+            text-align: justify;
             margin: 60px 0 0;
         }
         .selinexor-box > img{
@@ -149,7 +155,6 @@
 
     /* about */
     .about-box{
-        text-align: center;
         width: 400px;
         margin-left: calc(50% - 200px);
         padding-bottom: 30px;
