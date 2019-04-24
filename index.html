@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=0.9, maximum-scale=1.0, minimum-scale=0.86,user-sclable=yes" >
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width,initial-scale=0.9, maximum-scale=1.0, minimum-scale=0.86" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/slick.css"/>
     <link rel="stylesheet" href="css/slick-theme.css"/>
     <link rel="stylesheet" href="css/main.css"/>
@@ -18,7 +17,7 @@
                 <a href="#"><img src="img/logo.jpg"/></a>
             </div>
         </div>
-        <nav id="header_nav">
+        <nav id="header_nav" onclick="closeNav()">
             <a href="#hero"><i class="fa fa-home"></i></a>
             <a href="#about">About</a>
             <a href="#">SINE Compounds</a>
@@ -27,7 +26,7 @@
             <a href="#">Investors</a>
             <a href="#">Publications</a>
         </nav>
-        <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        <div class="menu-toggle" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></div>
     </header>
     <!-- hero -->
     <div id="hero" class="conteiner hero-img">
@@ -112,6 +111,5 @@
     <script type="text/javascript" src="js/slick.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
-
 </body>
 </html>
