@@ -1,29 +1,34 @@
-body,
-body *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-    body *::selection{
-        background-color: #F26641;
-        color: #FFF;
-    }
-
-.conteiner{
-    display: block;
+html,body{
     width: 100%;
-    background-color: white;
+    overflow-x: hidden; 
 }
-    .conteiner > .row {
-        display: inline-block;
-        width: 1200px;
-        height: auto;
-        min-height: 200px;
-        margin-left: calc(50% - 600px);
-        margin-top: 50px;
-        margin-bottom: 80px;
-        color: #333;
+
+    body,
+    body *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+        body *::selection{
+            background-color: #F26641;
+            color: #FFF;
+        }
+
+            .conteiner{
+                display: block;
+                width: 100%;
+                background-color: white;
+            }
+                .conteiner > .row {
+                    display: inline-block;
+                    width: 1200px;
+                    height: auto;
+                    min-height: 200px;
+                    margin-left: calc(50% - 600px);
+                    margin-top: 50px;
+                    margin-bottom: 80px;
+                    color: #333;
+                }
 
 /* header */
 
