@@ -54,8 +54,8 @@ header.conteiner{
         }
 
     #header_nav {
-        display: inline-block;
         float: right;
+        margin: 0 40px;
     }
 
         #header_nav > a {
@@ -75,15 +75,17 @@ header.conteiner{
         }
 
     .menu-toggle{
+        text-align: center;
         font-weight: bold; 
         color: #ccc;
-        float: right;
+        float: left;
         line-height: 24px;
         font-size: 20px;
         cursor: pointer;
         display: none;
-        padding: 5px 20px 5px 0;
+        padding: 5px 10px 5px;
         z-index: 9;
+        margin: 0 20px;
     }
         .menu-toggle:hover {
             color: #F26641;

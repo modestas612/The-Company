@@ -42,7 +42,8 @@
 
 }
 
-@media ( max-width: 1100px ) {
+@media ( max-width: 1200px ) {
+
 
     /* header */
     .menu-toggle{
@@ -51,11 +52,11 @@
         #header_nav{
             position: absolute;
             width: 150px;
-            margin-left: calc(100% - 150px);
+            margin-right: calc(100% - 150px);
             height: calc( auto - 50px );
             background: #fff;
-            top: -220px;
-            right: 10px;
+            top: -500px;
+            left: 5px;
             transition: 0.5s;
             border-radius: 15px;
             box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
@@ -76,16 +77,79 @@
 @media ( max-width: 757px ) {
 
     /* footer */
-    #footer > .row > .right-side {
-        float: left;
-    }
-
     #footer.conteiner {
         height: auto; 
     }
+
+    #footer > .row > .left-side > div > img.logo{
+        height: 100px;
+        margin: 30px 0 0;
+        padding: 0 0 0 26px;
+    }
+    
+        #footer > .row > .left-side .text {
+            line-height: 70px;
+            height: auto;
+        }
+
+        .vertical-bar{
+            display: none;
+        }
+
+        #footer > .row > .left-side .text > div{
+            float: left;
+            font-family: calibri;
+            font-size: 17px;
+            font-weight: 100;
+            padding: 0 5px;
+        }
+    
+            #footer > .row > .left-side > div{
+                float: none;
+                text-align: center;
+            }
+
+            #footer > .row > .left-side > div.text > div.contact{
+                width: 50%;
+                text-align: right;
+            }
+
+            #footer > .row > .left-side > div.text > div.careers{
+                width: 50%;
+                text-align: left;
+            }
+
+            #footer > .row > .left-side > div.text > div.copyright{
+                width: 100%;
+                text-align: center;
+            }
+
+            #footer > .row > .left-side > div.first{
+                float: left;
+                width: 50%;
+                text-align: right;
+            }
+
+            #footer > .row > .left-side > div.second{
+                float: right;
+                width: 50%;
+                text-align: left;
+            }
+
+    #footer > .row > .right-side {
+        float: left;
+        width: 180px;
+        text-align: center;
+        margin-left: calc(50% - 90px);
+        margin-bottom: 30px;
+    }
+
+            #footer > .row > .right-side > div.search {
+                background-color: transparent;
+                width: 45px;
+                height: auto;
+            }
 }
-
-
 
 @media ( max-width: 700px ){
 
@@ -113,6 +177,50 @@
     .about-box > iframe{
         height: 225px;
         width: 400px;
+    }
+
+    /* selinexor */
+    .selinexor-box {
+        text-align: center;
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+
+}
+
+@media ( max-width: 420px ){
+
+    /* header */
+    #header_logo img {
+        height: 30px;
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+    }
+
+    /* hero */
+
+    .hero-text{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+
+    /* about */
+    .about-box{
+        text-align: center;
+        width: 300px;
+        margin-left: calc(50% - 150px);
+        padding-bottom: 30px;
+    }
+
+    .about-box > iframe{
+        height: 168px;
+        width: 300px;
+    }
+
+    /* selinexor */
+    .selinexor-box {
+        text-align: center;
+        width: 300px;
+        margin-left: calc(50% - 150px);
     }
 
 }
