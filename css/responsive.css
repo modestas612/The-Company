@@ -189,7 +189,6 @@
 
     /* about */
     .about-box{
-        text-align: center;
         width: 300px;
         margin-left: calc(50% - 150px);
         padding-bottom: 30px;
