@@ -155,6 +155,7 @@
 
     /* about */
     .about-box{
+        text-align: justify;
         width: 400px;
         margin-left: calc(50% - 200px);
         padding-bottom: 30px;
@@ -189,6 +190,7 @@
 
     /* about */
     .about-box{
+        text-align: justify;
         width: 300px;
         margin-left: calc(50% - 150px);
         padding-bottom: 30px;
